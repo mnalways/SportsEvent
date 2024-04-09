@@ -1,0 +1,14 @@
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+@media (max-width: 850px) {
+  .app{
+    width: 835px;
+    overflow: scroll;
+  }
+}
